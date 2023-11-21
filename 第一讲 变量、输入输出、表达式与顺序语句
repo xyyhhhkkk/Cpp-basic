@@ -15,3 +15,6 @@
 ### 输出端: cout << 输出变量的值 << endl（endl可以加也可以不加，相当于一个断句），endl也可以替换成" ",代表输出值之间存在空格
 
 ## 基于#include<cstdio>
+### 输出端: printf("指定输出类型",变量)  其中指定输出类型包括{int:%d},{float:%f},{double:%lf},{char:%c} 
+### 如果想表示保留几位小数的话，就%+.number+类型(d,f,lf,c)  例如: printf("%.4f\n", b);
+### 举例：{int a = 3;printf("%d\n", a);},{printf("int a = %d, float b = %f\ndouble c = %lf, char d = %c\n", a, b, c, d);}
